@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calendar</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <script src="jquery-3.2.1.min.js"></script> -->
+	<script src="js/script.js"></script>
+</head>
+<body> 
+
+<section class="bar-grey">
+	<div class = "bar-grey__container">
+		<div class="button__container">
+			<button class="button-blue">Добавить</button>
+			<button class="button-blue">Обновить</button>
+		</div>
+		<div class="search__container">
+			<i class="fas fa-search"></i>
+			<input class="search" placeholder="Событие, дата или участник"></input>
+		</div>
+	</div>	
+</section>
+<main class="calendar">
+	<div class="calendar__container">
+		<nav class="calendar__date">
+			<a class="calendar__date_arr" id="prev" href="javascript:void(0);"><i class="fas fa-arrow-left"></i></a>
+			<div id="month" class="calendar__date_current"></div>
+			<a class="calendar__date_arr" id="next" href="javascript:void(0);"><i class="fas fa-arrow-right"></i></a>
+			<span class="calendar__date_current-day" id="today">Сегодня</span>
+		</nav>
+		<div class="calendar__container_days">
+
+		</div>
+	</div>
+</main>
+
+
+</body>
+</html>

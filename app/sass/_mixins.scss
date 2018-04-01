@@ -1,0 +1,29 @@
+@mixin blue-button {
+	background: linear-gradient(#0775d4, #2189e2);
+	color: #fff;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 0;
+	border-radius: 3px;
+	font-size: 16px;
+	font-weight: 500;
+	display: inline-block;
+	cursor: pointer;
+}
+
+@mixin calendar-item {
+	width: 171px;
+	height: 171px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #c3c3c3;
+	margin-left: -1px;
+	margin-top: -1px;
+	font-size: 17px;
+	color: #ccc;
+	padding-top: 7px;
+	padding-left: 7px;
+	box-sizing: border-box;
+}
